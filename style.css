@@ -1,0 +1,73 @@
+header {
+    /* outline: 3px solid green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(47, 143, 212);
+}
+body{
+    background-image: url(binary.jpg);
+    min-height: 150vh;
+}
+h1 {
+    /* outline: 1px solid red; */
+    margin: 10px;
+    padding: 10px;
+    
+   
+}
+
+nav {
+    /* outline: 2px solid blue; */
+    display: flex;
+    flex-diindex.htmlrection: row;
+    align-items: center;
+}
+
+a {
+    /* outline: 1px solid violet; */
+    margin: 5px;
+}
+
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+   margin-top: 10px;
+  
+}
+
+#about-h2 {
+    display: flex;
+    text-align: left;
+    width:20%;
+color: aliceblue;
+
+}
+
+#about-div {
+    width: 80%;
+    border-left: 5px solid gray;
+padding-left:10px ;
+
+}
+
+#about-me, #work, #contact, #resume {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+#work-h2 {
+    width: 20%;
+    color: aliceblue;
+}
+#Work-div {
+    width: 80%;
+    
+border-left: 5px solid gray;
+margin-top: 20px;
+padding: 10px;
+
+}
+
